@@ -1,0 +1,13 @@
+# Hyperparameters & file paths
+window_size: 60 # seconds
+contamination: 0.01 # anomaly threshold
+
+paths:
+  data:
+    raw: "data/raw"
+    features: "data/features"
+    labels: "data/labels"
+  models:
+    baselines: "models/baselines"
+  logs:
+    alerts: "logs/alerts.log"
